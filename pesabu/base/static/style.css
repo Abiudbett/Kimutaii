@@ -1,0 +1,69 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #fff;
+
+}
+.shadow-wrap{
+    border-radius: 5 px;
+    padding: 25px;
+    background-color: #F0f2FB;
+}
+.form-wrap{
+    background-color: #fff;
+    padding: 120px 70px;
+
+}
+.form-wrap form{
+    display: block;
+    width: 100%;
+}
+.form-wrap form label {
+    margin-bottom: 5px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    border: 1px solid #DAE1F5;
+    border-radius: 5px;
+    background: #fff;
+    color: #545454;
+}
+#id_username{
+    margin-bottom: 20px;
+}
+.form-wrap button{
+border-radius: 5px;
+color: white;
+background-color: black;
+text-align: center;
+font-size: 16px;
+padding:12px 68px;
+font-weight: 700;
+line-height: 26px;
+border:none;
+margin-top: 30px;
+line-height: 26px;
+
+
+}
+.signup-link{
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align:center;
+    line-height: 25px;
+    text-decoration: none;
+    display: block;
+}
+.signup-link:hover{
+    text-decoration: underline;
+}
